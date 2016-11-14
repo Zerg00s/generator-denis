@@ -1,0 +1,18 @@
+<p class="input-group">
+    <input type="text" 
+        ng-required="require"
+        class="form-control" 
+        uib-datepicker-popup="{{format}}" 
+        ng-model="model"
+        is-open="isOpen" 
+        datepicker-options="{showWeeks:false}" 
+        close-text="Close" 
+        alt-input-formats="altInputFormats" 
+        ng-disabled="disable" />
+
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" 
+            ng-disabled="disable"
+            ng-click="buttonClick()"><i class="glyphicon glyphicon-calendar"></i></button>
+    </span>
+</p>

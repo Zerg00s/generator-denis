@@ -1,0 +1,9 @@
+<span ng-repeat="option in field.Choices">
+    <span class='radio-label'>{{option}}</span>
+    <input class='radio-value' name="{{field.FieldInternalName}}" 
+        type="radio" 
+        ng-value="field.Choices[$index]" 
+        ng-model="field.Value" 
+        ng-disabled="disable" 
+        ng-required="require" />
+</span>

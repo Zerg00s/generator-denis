@@ -1,0 +1,30 @@
+{
+  "name": "generator-denis",
+  "version": "1.0.0",
+  "description": "test generator. please ignore it",
+  "main": "index.js",
+  "files": [
+    "generators/app",
+    "generators/spform"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": {
+    "name": "Denis Molodtsov",
+    "email": "molodtsovdenis@gmail.com",
+    "url": "https://github.com/Zerg00s"
+  },
+ "repository": "git://github.com/Zerg00s/generator-denis",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "mkdirp": "^0.5.1",
+    "path": "^0.12.7",
+    "yeoman-generator": "^0.24.1",
+    "yosay": "^1.2.1"
+  }
+}
